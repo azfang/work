@@ -178,13 +178,24 @@ h1, h2 {
 @media (max-width: 768px) {
 
   h1 {
-    margin: 5px 0px 100px 0px;
     font-size: 1.5rem;
     text-align: left;
   }
 
+  .intro {
+    position: relative;
+    top: 10px;
+    align-content: center;
+    margin: 0px 0px 75px 0px;
+    transform: translateX(42.5vw);
+  }
+
+  .clock {
+    opacity: 0%;
+  }
+
   .carousel {
-    width: 80%;
+    width: 85%;
     height: auto;
   }
 
@@ -201,9 +212,9 @@ h1, h2 {
   }
 
   .caption {
+    font-size: 0.75rem;
     margin-top: 0.25rem;
     width: 75vw;
     /* margin: 0px 0px 5px 0px; */
   }
-
 }
