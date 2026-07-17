@@ -63,7 +63,8 @@ h1, h2 {
   width: 100%;
   /* centers first image on load */
   padding-top: 48vh;
-  padding-bottom: 20vh;
+  /* padding-bottom: 20vh; */
+  padding-bottom: 0;
 }
 
 .panel {
