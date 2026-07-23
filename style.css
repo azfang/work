@@ -26,7 +26,7 @@ h1, h2 {
   .top-nav {
     display: flex;
     flex-direction: row;
-    margin: 15px;
+    margin: 12px;
   }
 
 .title {
