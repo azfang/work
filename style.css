@@ -23,14 +23,27 @@ h1, h2 {
   font-weight: normal;
 }
 
-.intro {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  position: fixed;
-  top: 42vh;
-  margin: 0px 0px 0px 20px;
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+  }
+
+.title {
+  position: relative;
+  /* margin: 20px 0px 0px 20px; */
   /* text-align: center; */
+}
+
+.clock {
+  position: relative;
+  top: 0;
+  /* margin: 0px 15px 0px 0px; */
+  padding: 0px 75px;
+}
+
+.clock-box, .showTime {
+  display: inline;
 }
 
 .eb-garamond-<uniquifier> {
@@ -48,18 +61,6 @@ h1, h2 {
 
 .shift {
   transform: translateX(20px);
-}
-
-.clock {
-  position: fixed;
-  top: 42vh;
-  right: 0;
-  margin: 0px 15px 0px 0px;
-  text-align: right;
-}
-
-.clock-box, .showTime {
-  display: inline;
 }
 
 /* ------------------- */
