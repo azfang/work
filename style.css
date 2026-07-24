@@ -14,7 +14,7 @@ body {
   cursor: auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
   /* text-transform: uppercase; */
   font-size: 0.9rem;
   line-height: 1.25;
@@ -23,9 +23,16 @@ h1, h2 {
   font-weight: normal;
 }
 
-h1, h2, a, a:hover, a:active, .caption, .cursor {
+h1, h2, a, a:hover, a:active, .caption, .cursor, p {
   /* color: #238b45; */
   color: #808080;
+}
+
+p {
+  font-size: 12rem;
+  line-height: 1.25;
+  font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
+  font-weight: normal;
 }
 
 a {
