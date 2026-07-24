@@ -47,6 +47,10 @@ h1, h2 {
   display: inline;
 }
 
+.about {
+  align-self: flex-end;
+}
+
 .eb-garamond-<uniquifier> {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
