@@ -222,6 +222,7 @@ a:hover {
     align-content: center;
     margin: 0px 0px 75px 0px;
     transform: translateX(42.5vw);
+    z-index: 2;
   }
 
   .clock {
