@@ -24,10 +24,10 @@ const panels =
 function updatePanels() {
 
   const viewportCenter = window.innerHeight / 2;
+
   panels.forEach(panel => {
 
     const rect = panel.getBoundingClientRect();
-
     const center = rect.top + rect.height / 2;
 
     const distance = Math.abs(viewportCenter - center);
@@ -37,14 +37,11 @@ function updatePanels() {
       1
     );
 
-    const scale =
-      0.95 + ((1 - normalized) * 0.15);
+    const scale = 0.95 + ((1 - normalized) * 0.15);
 
-    const carousel =
-      panel.querySelector(".carousel");
-
-    carousel.style.transform =
-      `scale(${scale})`;
+    // Scale ONLY the images
+    const carousel = panel.querySelector('.carousel');
+    carousel.style.transform = `scale(${scale})`;
 
   });
 
