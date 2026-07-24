@@ -61,6 +61,7 @@ a:active {
     justify-items: space-between;
     width: 100vw;
     padding: 10px;
+    z-index: 2;
   }
 
 .title {
