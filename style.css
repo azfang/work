@@ -23,7 +23,7 @@ h1, h2, h3 {
   font-weight: normal;
 }
 
-h1, h2, a, a:hover, a:active, .caption, .cursor, p {
+h1, h2, h3, a, a:hover, a:active, .caption, .cursor, p {
   /* color: #238b45; */
   color: #808080;
 }
