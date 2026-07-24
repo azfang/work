@@ -24,11 +24,13 @@ h1, h2 {
 }
 
 h1, h2, a, a:hover, a:active, .caption, .cursor {
-  color: #238b45;
+  /* color: #238b45; */
+  color: #808080;
 }
 
 a {
-  color: #238b45;
+  /* color: #238b45; */
+  color: #808080;
   text-decoration: none;
 }
 
