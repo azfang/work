@@ -29,7 +29,7 @@ h1, h2 {
     flex-direction: row;
     justify-items: space-between;
     width: 100vw;
-    padding: 12px;
+    padding: 10px;
   }
 
 .title {
@@ -154,7 +154,7 @@ h1, h2 {
   width: 30vw;
   /* max-width: 320px; */
   min-width: 220px;
-  margin-top: 0.9rem;
+  margin-top: 12px;
   text-align: center;
   font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
