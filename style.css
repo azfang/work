@@ -23,6 +23,10 @@ h1, h2 {
   font-weight: normal;
 }
 
+a:hover {
+  font-style: italic;
+}
+
   .top-nav {
     position: fixed;
     display: flex;
