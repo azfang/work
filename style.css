@@ -16,7 +16,7 @@ body {
 
 h1, h2 {
   /* text-transform: uppercase; */
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.25;
   font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
@@ -147,7 +147,7 @@ h1, h2 {
   text-align: center;
   font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.25;
   transition: transform .25s ease;
 }
@@ -167,7 +167,7 @@ h1, h2 {
   text-align: center;
   font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-size: .9rem;
+  font-size: 1rem;
   transition: opacity .2s ease;
   mix-blend-mode: difference;
   color: white;
