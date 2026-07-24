@@ -90,15 +90,13 @@ a:active {
 
 .about-text {
   position: relative;
-  overflow: auto;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   text-align: center;
   width: 100vw;
-  height: auto;
-  /* height: 100vh; */
+  /* height: auto; */
   top: 75px;
   padding: 10px;
 }
