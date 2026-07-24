@@ -27,6 +27,7 @@ h1, h2 {
     position: fixed;
     display: flex;
     flex-direction: row;
+    justify-items: space-between:
     width: 100vw;
     margin: 12px;
   }
@@ -35,6 +36,7 @@ h1, h2 {
   position: relative;
   /* margin: 20px 0px 0px 20px; */
   /* text-align: center; */
+  flex-grow: 1;
 }
 
 .clock {
@@ -42,6 +44,7 @@ h1, h2 {
   top: 0;
   /* margin: 0px 15px 0px 0px; */
   padding: 0px 75px;
+  flex-grow: 4;
 }
 
 .clock-box, .showTime {
@@ -50,6 +53,7 @@ h1, h2 {
 
 .about {
   align-self: flex-end;
+  flex-grow: 1;
 }
 
 .eb-garamond-<uniquifier> {
