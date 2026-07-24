@@ -27,6 +27,11 @@ h1, h2, a, a:hover, a:active, .caption, .cursor {
   color: #238b45;
 }
 
+a {
+  color: #238b45;
+  text-decoration: none;
+}
+
 a:hover {
   font-style: italic;
 }
