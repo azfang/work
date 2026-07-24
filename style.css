@@ -80,7 +80,7 @@ h1, h2 {
 .gallery {
   width: 100%;
   /* centers first image on load */
-  padding-top: 48vh;
+  padding-top: 52vh;
   /* padding-bottom: 20vh; */
   padding-bottom: 0;
 }
