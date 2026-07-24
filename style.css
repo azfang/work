@@ -43,7 +43,7 @@ h1, h2 {
   position: relative;
   top: 0;
   /* padding: 0px 75px; */
-  flex-grow: 4;
+  flex-grow: 5;
 }
 
 .clock-box, .showTime {
