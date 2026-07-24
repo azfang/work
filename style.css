@@ -84,6 +84,8 @@ a:hover {
 }
 
 .about-text {
+  position: relative;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
