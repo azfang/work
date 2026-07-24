@@ -24,6 +24,7 @@ h1, h2 {
 }
 
   .top-nav {
+    position: fixed;
     display: flex;
     flex-direction: row;
     margin: 12px;
