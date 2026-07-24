@@ -81,10 +81,12 @@ a:hover {
 }
 
 .about-text {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   width: 100vw;
   height: 100vh;
-  text-align: center;
 }
 
 .eb-garamond-<uniquifier> {
