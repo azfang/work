@@ -50,6 +50,10 @@ a:hover {
   font-style: italic;
 }
 
+a:active {
+  text-decoration: none;
+}
+
   .top-nav {
     position: fixed;
     display: flex;
