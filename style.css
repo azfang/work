@@ -78,6 +78,13 @@ a:hover {
   flex-grow: 1;
 }
 
+.about-text {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
 .eb-garamond-<uniquifier> {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
