@@ -97,6 +97,7 @@ a:active {
   /* justify-content: center; */
   text-align: center;
   width: 100vw;
+  height: auto;
   /* height: 100vh; */
   top: 75px;
   padding: 10px;
