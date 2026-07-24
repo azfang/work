@@ -23,6 +23,10 @@ h1, h2 {
   font-weight: normal;
 }
 
+h1, h2, a, a:hover, a:active, .caption, .cursor {
+  color: #238b45;
+}
+
 a:hover {
   font-style: italic;
 }
