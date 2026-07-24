@@ -27,7 +27,7 @@ h1, h2 {
     position: fixed;
     display: flex;
     flex-direction: row;
-    justify-items: space-between:
+    justify-items: space-between;
     width: 100vw;
     margin: 12px;
   }
