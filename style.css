@@ -42,8 +42,7 @@ h1, h2 {
 .clock {
   position: relative;
   top: 0;
-  /* margin: 0px 15px 0px 0px; */
-  padding: 0px 75px;
+  /* padding: 0px 75px; */
   flex-grow: 4;
 }
 
@@ -53,6 +52,7 @@ h1, h2 {
 
 .about {
   align-self: flex-end;
+  text-align: right;
   flex-grow: 1;
 }
 
