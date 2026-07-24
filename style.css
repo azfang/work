@@ -29,7 +29,8 @@ h1, h2, a, a:hover, a:active, .caption, .cursor, p {
 }
 
 p {
-  font-size: 12rem;
+  /* font-size: 12rem; */
+  font-size: 1.2rem;
   line-height: 1.25;
   font-family: "EB Garamond", "Georgia", "Times New Roman", serif;
   font-weight: normal;
