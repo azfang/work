@@ -105,6 +105,8 @@ h1, h2 {
   height: 68vh;
   overflow: hidden;
   cursor: auto;
+  transform-origin: center center;
+  transition: transform 0.15s ease-out;
 }
 
 .carousel.multi-image {
