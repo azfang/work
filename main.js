@@ -23,30 +23,27 @@ const panels =
 
 function updatePanels() {
 
-  const viewportCenter =
-    window.innerHeight / 2;
-
+  const viewportCenter = window.innerHeight / 2;
   panels.forEach(panel => {
 
-    const rect =
-      panel.getBoundingClientRect();
+    const rect = panel.getBoundingClientRect();
 
-    const center =
-      rect.top + rect.height / 2;
+    const center = rect.top + rect.height / 2;
 
-    const distance =
-      Math.abs(viewportCenter - center);
+    const distance = Math.abs(viewportCenter - center);
 
-    const normalized =
-      Math.min(
-        distance / (window.innerHeight * 0.8),
-        1
-      );
+    const normalized = Math.min(
+      distance / (window.innerHeight * 0.8),
+      1
+    );
 
     const scale =
       0.95 + ((1 - normalized) * 0.15);
 
-    panel.style.transform =
+    const carousel =
+      panel.querySelector(".carousel");
+
+    carousel.style.transform =
       `scale(${scale})`;
 
   });
